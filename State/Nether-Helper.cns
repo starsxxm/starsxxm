@@ -1,0 +1,179 @@
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+;模拟装甲--------------------------------------------------------------------
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[Statedef 5150];吃所有攻击。
+type     = U
+movetype = U
+physics  = U
+ctrl        = 1
+anim        = 32112
+velset      = 0,0
+sprpriority = -1
+movehitpersist = 1
+hitdefpersist = 1
+hitcountpersist = 1
+
+[State Death]
+Type = ReversalDef
+Trigger1 = IsHelper(5150)&& Root,Var(55) = 0
+Reversal.Attr = SCA,AA,AT,AP,NA,NT,NP,SA,ST,SP,HA,HT,HP
+PauseTime = 0,0
+SparkNo = -1
+HitSound = -1
+P2StateNo = 5011
+IgnoreHitPause = 1
+
+[State Death];
+Type = NotHitBy
+Trigger1 = IsHelper(5150) && Root,Var(55) = 0
+Value = SCA
+ignorehitpause = 1  
+
+[State Death];
+Type = NotHitBy
+TriggerAll = IsHelper(5150)
+Triggerall = Roundstate = 2 && !IsHelper && Root,SysFvar(0) <= LifeMax * 0.2 && Root,Var(51) = 1 
+Trigger1 = enemynear,life > enemynear,lifemax *0.95
+Trigger2 = P2Life > enemynear,lifemax *0.95
+Value = SCA
+ignorehitpause = 1  
+
+[State Death]
+type = changeanim
+trigger1 = IsHelper(5150) && Anim != 32112
+value = 32112
+ignorehitpause = 1
+
+[State Death]
+type = BindToRoot
+trigger1 = IsHelper(5150)
+time = -1
+facing = 1
+pos = 0, 0
+ignorehitpause=1
+supermovetime = 9999999999
+pausemovetime = 9999999999
+
+[State Death]
+type = PlayerPush
+trigger1 = IsHelper(5150)
+value = 1
+IgnoreHitPause = 1
+
+[State Death]
+type = statetypeset
+trigger1 = IsHelper(5150)
+statetype = S
+movetype = H
+physics = N
+ignorehitpause = 1
+
+[State Death]
+type = HitOverride 
+trigger1 = IsHelper(5150)
+time = -1         
+attr = SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
+slot = 0
+stateno = 5150
+ignorehitpause = 1
+
+[State Death];
+type = Turn
+trigger1 = IsHelper(5150)
+trigger1 = Facing != parent,Facing
+ignorehitpause = 1
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[State Death];
+type = ChangeAnim2
+trigger1 = !IsHelper
+trigger1 = name != "Nether"
+value = 9812
+ignorehitpause = 1
+ignorehitpause=1
+
+[State Death];
+type = LifeSet
+trigger1 = !ishelper
+trigger1 = name != "Nether"
+value = 0
+ignorehitpause = 1
+
+[State Death];
+type = LifeAdd
+trigger1 = !ishelper
+trigger1 = name != "Nether"
+value = -2147483647
+absolute = 1
+ignorehitpause = 1
+
+[State Death];
+type = HitFallDamage
+trigger1 = !ishelper
+trigger1 = name != "Nether"
+ignorehitpause = 1
+
+[State Death];
+type = StateTypeSet
+trigger1 = !ishelper
+trigger1 = name != "Nether"
+statetype = C
+movetype = A
+physics = C
+ignorehitpause = 1
+
+[State Death];
+type = CtrlSet
+trigger1 = !ishelper
+trigger1 = name != "Nether"
+value = 0
+ignorehitpause = 1
+
+[State Death];
+type = HitDef
+trigger1 = !IsHelper && Roundstate <= 2
+trigger1 = name != "Nether"
+attr = C,HP
+hitflag = MAFD
+pausetime = 10,0
+sparkno = -1
+hitsound = -1
+ignorehitpause = 1
+
+[State Death];
+type = HitBy
+trigger1 = name != "Nether"
+trigger1 = !ishelper
+trigger1 = roundstate < 3
+value = SCA,AA,AP,AT
+time = -1
+ignorehitpause = 1
+
+[State Death];
+Type = ChangeState
+Trigger1 = !IsHelper && (PrevStateNo = [3333,3334])
+Trigger1 = Name != "Nether"
+Trigger1 = Alive
+Value = 3333
+IgnoreHitPause = 1
+
+[State Death];
+Type = ChangeState
+Trigger1 = !IsHelper && (PrevStateNo = 777777)
+Trigger1 = Name != "Nether"
+Trigger1 = Alive
+Value = 777777
+IgnoreHitPause = 1
+
+[State Death];
+Type = ChangeState
+Trigger1 = !IsHelper && (PrevStateNo = [444444,444445])
+Trigger1 = Name != "Nether"
+Trigger1 = Alive
+Value = 444444
+IgnoreHitPause = 1
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[State Death];
+type = DestroySelf
+trigger1 = IsHelper(5150)
+trigger1 = RoundState = 4
+ignorehitpause = 1

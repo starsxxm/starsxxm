@@ -1,0 +1,46 @@
+;©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥
+;»ù´¡×´Ì¬-----------------------------------------------------------------------
+;©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥
+[Statedef 120]
+type = U
+movetype = U
+physics = N
+movehitpersist = 1
+hitdefpersist = 1
+hitcountpersist = 1
+
+[State Death]
+type = ChangeState
+triggerall =!ishelper&&name!= "Nether" || ishelper&&root,name!= "Nether"
+trigger1 = prevstateno != [1000043,1000045]
+trigger1 = prevstateno != [515000,515002]
+trigger2 = time || ctrl
+value = ifelse(ishelper,515000,1000043)
+persistent = 256
+ignorehitpause = 1
+
+[State Death];
+Type = AssertSpecial
+Trigger1 = !ishelper 
+Trigger1 = palno != 6
+Trigger1 = RoundState != 2
+Flag = NoKo
+Ignorehitpause = 1
+
+[State Death];
+Type = AssertSpecial
+Trigger1 = palno = 6
+Flag = NoKo
+Ignorehitpause = 1
+
+[State Death]
+type = NotHitBy
+trigger1 = !ishelper
+value = SCA
+ignorehitpause = 1
+
+[State Death];
+type = ctrlset
+trigger1 = !ishelper
+value = 1
+ignorehitpause = 1

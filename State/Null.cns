@@ -1,0 +1,5068 @@
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+;Alive伪装null
+;Alive偽裝
+;將自己的Alive刷成0及1以外的數值，可突破對方以enemy,Alive = 1為條件發動的noko
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[Statedef 1000000]
+type = U
+movetype = U
+physics = U
+
+[state 1]
+type = null
+trigger1 = 1
+[state 2]
+type = null
+trigger1 = 1
+[state 3]
+type = null
+trigger1 = 1
+[state 4]
+type = null
+trigger1 = 1
+[state 5]
+type = null
+trigger1 = 1
+[state 6]
+type = null
+trigger1 = 1
+[state 7]
+type = null
+trigger1 = 1
+[state 8]
+type = null
+trigger1 = 1
+[state 9]
+type = null
+trigger1 = 1
+[state 10]
+type = null
+trigger1 = 1
+[state 11]
+type = null
+trigger1 = 1
+[state 12]
+type = null
+trigger1 = 1
+[state 13]
+type = null
+trigger1 = 1
+[state 14]
+type = null
+trigger1 = 1
+[state 15]
+type = null
+trigger1 = 1
+[state 16]
+type = null
+trigger1 = 1
+[state 17]
+type = null
+trigger1 = 1
+[state 18]
+type = null
+trigger1 = 1
+[state 19]
+type = null
+trigger1 = 1
+[state 20]
+type = null
+trigger1 = 1
+[state 21]
+type = null
+trigger1 = 1
+[state 22]
+type = null
+trigger1 = 1
+[state 23]
+type = null
+trigger1 = 1
+[state 24]
+type = null
+trigger1 = 1
+[state 25]
+type = null
+trigger1 = 1
+[state 26]
+type = null
+trigger1 = 1
+[state 27]
+type = null
+trigger1 = 1
+[state 28]
+type = null
+trigger1 = 1
+[state 29]
+type = null
+trigger1 = 1
+[state 30]
+type = null
+trigger1 = 1
+[state 31]
+type = null
+trigger1 = 1
+[state 32]
+type = null
+trigger1 = 1
+[state 33]
+type = null
+trigger1 = 1
+[state 34]
+type = null
+trigger1 = 1
+[state 35]
+type = null
+trigger1 = 1
+[state 36]
+type = null
+trigger1 = 1
+[state 37]
+type = null
+trigger1 = 1
+[state 38]
+type = null
+trigger1 = 1
+[state 39]
+type = null
+trigger1 = 1
+[state 40]
+type = null
+trigger1 = 1
+[state 41]
+type = null
+trigger1 = 1
+[state 42]
+type = null
+trigger1 = 1
+[state 43]
+type = null
+trigger1 = 1
+[state 44]
+type = null
+trigger1 = 1
+[state 45]
+type = null
+trigger1 = 1
+[state 46]
+type = null
+trigger1 = 1
+[state 47]
+type = null
+trigger1 = 1
+[state 48]
+type = null
+trigger1 = 1
+[state 49]
+type = null
+trigger1 = 1
+[state 50]
+type = null
+trigger1 = 1
+[state 51]
+type = null
+trigger1 = 1
+[state 52]
+type = null
+trigger1 = 1
+[state 53]
+type = null
+trigger1 = 1
+[state 54]
+type = null
+trigger1 = 1
+[state 55]
+type = null
+trigger1 = 1
+[state 56]
+type = null
+trigger1 = 1
+[state 57]
+type = null
+trigger1 = 1
+[state 58]
+type = null
+trigger1 = 1
+[state 59]
+type = null
+trigger1 = 1
+[state 60]
+type = null
+trigger1 = 1
+[state 61]
+type = null
+trigger1 = 1
+[state 62]
+type = null
+trigger1 = 1
+[state 63]
+type = null
+trigger1 = 1
+[state 64]
+type = null
+trigger1 = 1
+[state 65]
+type = null
+trigger1 = 1
+[state 66]
+type = null
+trigger1 = 1
+[state 67]
+type = null
+trigger1 = 1
+[state 68]
+type = null
+trigger1 = 1
+[state 69]
+type = null
+trigger1 = 1
+[state 70]
+type = null
+trigger1 = 1
+[state 71]
+type = null
+trigger1 = 1
+[state 72]
+type = null
+trigger1 = 1
+[state 73]
+type = null
+trigger1 = 1
+[state 74]
+type = null
+trigger1 = 1
+[state 75]
+type = null
+trigger1 = 1
+[state 76]
+type = null
+trigger1 = 1
+[state 77]
+type = null
+trigger1 = 1
+[state 78]
+type = null
+trigger1 = 1
+[state 79]
+type = null
+trigger1 = 1
+[state 80]
+type = null
+trigger1 = 1
+[state 81]
+type = null
+trigger1 = 1
+[state 82]
+type = null
+trigger1 = 1
+[state 83]
+type = null
+trigger1 = 1
+[state 84]
+type = null
+trigger1 = 1
+[state 85]
+type = null
+trigger1 = 1
+[state 86]
+type = null
+trigger1 = 1
+[state 87]
+type = null
+trigger1 = 1
+[state 88]
+type = null
+trigger1 = 1
+[state 89]
+type = null
+trigger1 = 1
+[state 90]
+type = null
+trigger1 = 1
+[state 91]
+type = null
+trigger1 = 1
+[state 92]
+type = null
+trigger1 = 1
+[state 93]
+type = null
+trigger1 = 1
+[state 94]
+type = null
+trigger1 = 1
+[state 95]
+type = null
+trigger1 = 1
+[state 96]
+type = null
+trigger1 = 1
+[state 97]
+type = null
+trigger1 = 1
+[state 98]
+type = null
+trigger1 = 1
+[state 99]
+type = null
+trigger1 = 1
+[state 100]
+type = null
+trigger1 = 1
+[state 101]
+type = null
+trigger1 = 1
+[state 102]
+type = null
+trigger1 = 1
+[state 103]
+type = null
+trigger1 = 1
+[state 104]
+type = null
+trigger1 = 1
+[state 105]
+type = null
+trigger1 = 1
+[state 106]
+type = null
+trigger1 = 1
+[state 107]
+type = null
+trigger1 = 1
+[state 108]
+type = null
+trigger1 = 1
+[state 109]
+type = null
+trigger1 = 1
+[state 110]
+type = null
+trigger1 = 1
+[state 111]
+type = null
+trigger1 = 1
+[state 112]
+type = null
+trigger1 = 1
+[state 113]
+type = null
+trigger1 = 1
+[state 114]
+type = null
+trigger1 = 1
+[state 115]
+type = null
+trigger1 = 1
+[state 116]
+type = null
+trigger1 = 1
+[state 117]
+type = null
+trigger1 = 1
+[state 118]
+type = null
+trigger1 = 1
+[state 119]
+type = null
+trigger1 = 1
+[state 120]
+type = null
+trigger1 = 1
+[state 121]
+type = null
+trigger1 = 1
+[state 122]
+type = null
+trigger1 = 1
+[state 123]
+type = null
+trigger1 = 1
+[state 124]
+type = null
+trigger1 = 1
+[state 125]
+type = null
+trigger1 = 1
+[state 126]
+type = null
+trigger1 = 1
+[state 127]
+type = null
+trigger1 = 1
+[state 128]
+type = null
+trigger1 = 1
+[state 129]
+type = null
+trigger1 = 1
+[state 130]
+type = null
+trigger1 = 1
+[state 131]
+type = null
+trigger1 = 1
+[state 132]
+type = null
+trigger1 = 1
+[state 133]
+type = null
+trigger1 = 1
+[state 134]
+type = null
+trigger1 = 1
+[state 135]
+type = null
+trigger1 = 1
+[state 136]
+type = null
+trigger1 = 1
+[state 137]
+type = null
+trigger1 = 1
+[state 138]
+type = null
+trigger1 = 1
+[state 139]
+type = null
+trigger1 = 1
+[state 140]
+type = null
+trigger1 = 1
+[state 141]
+type = null
+trigger1 = 1
+[state 142]
+type = null
+trigger1 = 1
+[state 143]
+type = null
+trigger1 = 1
+[state 144]
+type = null
+trigger1 = 1
+[state 145]
+type = null
+trigger1 = 1
+[state 146]
+type = null
+trigger1 = 1
+[state 147]
+type = null
+trigger1 = 1
+[state 148]
+type = null
+trigger1 = 1
+[state 149]
+type = null
+trigger1 = 1
+[state 150]
+type = null
+trigger1 = 1
+[state 151]
+type = null
+trigger1 = 1
+[state 152]
+type = null
+trigger1 = 1
+[state 153]
+type = null
+trigger1 = 1
+[state 154]
+type = null
+trigger1 = 1
+[state 155]
+type = null
+trigger1 = 1
+[state 156]
+type = null
+trigger1 = 1
+[state 157]
+type = null
+trigger1 = 1
+[state 158]
+type = null
+trigger1 = 1
+[state 159]
+type = null
+trigger1 = 1
+[state 160]
+type = null
+trigger1 = 1
+[state 161]
+type = null
+trigger1 = 1
+[state 162]
+type = null
+trigger1 = 1
+[state 163]
+type = null
+trigger1 = 1
+[state 164]
+type = null
+trigger1 = 1
+[state 165]
+type = null
+trigger1 = 1
+[state 166]
+type = null
+trigger1 = 1
+[state 167]
+type = null
+trigger1 = 1
+[state 168]
+type = null
+trigger1 = 1
+[state 169]
+type = null
+trigger1 = 1
+[state 170]
+type = null
+trigger1 = 1
+[state 171]
+type = null
+trigger1 = 1
+[state 172]
+type = null
+trigger1 = 1
+[state 173]
+type = null
+trigger1 = 1
+[state 174]
+type = null
+trigger1 = 1
+[state 175]
+type = null
+trigger1 = 1
+[state 176]
+type = null
+trigger1 = 1
+[state 177]
+type = null
+trigger1 = 1
+[state 178]
+type = null
+trigger1 = 1
+[state 179]
+type = null
+trigger1 = 1
+[state 180]
+type = null
+trigger1 = 1
+[state 181]
+type = null
+trigger1 = 1
+[state 182]
+type = null
+trigger1 = 1
+[state 183]
+type = null
+trigger1 = 1
+[state 184]
+type = null
+trigger1 = 1
+[state 185]
+type = null
+trigger1 = 1
+[state 186]
+type = null
+trigger1 = 1
+[state 187]
+type = null
+trigger1 = 1
+[state 188]
+type = null
+trigger1 = 1
+[state 189]
+type = null
+trigger1 = 1
+[state 190]
+type = null
+trigger1 = 1
+[state 191]
+type = null
+trigger1 = 1
+[state 192]
+type = null
+trigger1 = 1
+[state 193]
+type = null
+trigger1 = 1
+[state 194]
+type = null
+trigger1 = 1
+[state 195]
+type = null
+trigger1 = 1
+[state 196]
+type = null
+trigger1 = 1
+[state 197]
+type = null
+trigger1 = 1
+[state 198]
+type = null
+trigger1 = 1
+[state 199]
+type = null
+trigger1 = 1
+[state 200]
+type = null
+trigger1 = 1
+[state 201]
+type = null
+trigger1 = 1
+[state 202]
+type = null
+trigger1 = 1
+[state 203]
+type = null
+trigger1 = 1
+[state 204]
+type = null
+trigger1 = 1
+[state 205]
+type = null
+trigger1 = 1
+[state 206]
+type = null
+trigger1 = 1
+[state 207]
+type = null
+trigger1 = 1
+[state 208]
+type = null
+trigger1 = 1
+[state 209]
+type = null
+trigger1 = 1
+[state 210]
+type = null
+trigger1 = 1
+[state 211]
+type = null
+trigger1 = 1
+[state 212]
+type = null
+trigger1 = 1
+[state 213]
+type = null
+trigger1 = 1
+[state 214]
+type = null
+trigger1 = 1
+[state 215]
+type = null
+trigger1 = 1
+[state 216]
+type = null
+trigger1 = 1
+[state 217]
+type = null
+trigger1 = 1
+[state 218]
+type = null
+trigger1 = 1
+[state 219]
+type = null
+trigger1 = 1
+[state 220]
+type = null
+trigger1 = 1
+[state 221]
+type = null
+trigger1 = 1
+[state 222]
+type = null
+trigger1 = 1
+[state 223]
+type = null
+trigger1 = 1
+[state 224]
+type = null
+trigger1 = 1
+[state 225]
+type = null
+trigger1 = 1
+[state 226]
+type = null
+trigger1 = 1
+[state 227]
+type = null
+trigger1 = 1
+[state 228]
+type = null
+trigger1 = 1
+[state 229]
+type = null
+trigger1 = 1
+[state 230]
+type = null
+trigger1 = 1
+[state 231]
+type = null
+trigger1 = 1
+[state 232]
+type = null
+trigger1 = 1
+[state 233]
+type = null
+trigger1 = 1
+[state 234]
+type = null
+trigger1 = 1
+[state 235]
+type = null
+trigger1 = 1
+[state 236]
+type = null
+trigger1 = 1
+[state 237]
+type = null
+trigger1 = 1
+[state 238]
+type = null
+trigger1 = 1
+[state 239]
+type = null
+trigger1 = 1
+[state 240]
+type = null
+trigger1 = 1
+[state 241]
+type = null
+trigger1 = 1
+[state 242]
+type = null
+trigger1 = 1
+[state 243]
+type = null
+trigger1 = 1
+[state 244]
+type = null
+trigger1 = 1
+[state 245]
+type = null
+trigger1 = 1
+[state 246]
+type = null
+trigger1 = 1
+[state 247]
+type = null
+trigger1 = 1
+[state 248]
+type = null
+trigger1 = 1
+[state 249]
+type = null
+trigger1 = 1
+[state 250]
+type = null
+trigger1 = 1
+[state 251]
+type = null
+trigger1 = 1
+[state 252]
+type = null
+trigger1 = 1
+[state 253]
+type = null
+trigger1 = 1
+[state 254]
+type = null
+trigger1 = 1
+[state 255]
+type = null
+trigger1 = 1
+[state 256]
+type = null
+trigger1 = 1
+[state 257]
+type = null
+trigger1 = 1
+[state 258]
+type = null
+trigger1 = 1
+[state 259]
+type = null
+trigger1 = 1
+[state 260]
+type = null
+trigger1 = 1
+[state 261]
+type = null
+trigger1 = 1
+[state 262]
+type = null
+trigger1 = 1
+[state 263]
+type = null
+trigger1 = 1
+[state 264]
+type = null
+trigger1 = 1
+[state 265]
+type = null
+trigger1 = 1
+[state 266]
+type = null
+trigger1 = 1
+[state 267]
+type = null
+trigger1 = 1
+[state 268]
+type = null
+trigger1 = 1
+[state 269]
+type = null
+trigger1 = 1
+[state 270]
+type = null
+trigger1 = 1
+[state 271]
+type = null
+trigger1 = 1
+[state 272]
+type = null
+trigger1 = 1
+[state 273]
+type = null
+trigger1 = 1
+[state 274]
+type = null
+trigger1 = 1
+[state 275]
+type = null
+trigger1 = 1
+[state 276]
+type = null
+trigger1 = 1
+[state 277]
+type = null
+trigger1 = 1
+[state 278]
+type = null
+trigger1 = 1
+[state 279]
+type = null
+trigger1 = 1
+[state 280]
+type = null
+trigger1 = 1
+[state 281]
+type = null
+trigger1 = 1
+[state 282]
+type = null
+trigger1 = 1
+[state 283]
+type = null
+trigger1 = 1
+[state 284]
+type = null
+trigger1 = 1
+[state 285]
+type = null
+trigger1 = 1
+[state 286]
+type = null
+trigger1 = 1
+[state 287]
+type = null
+trigger1 = 1
+[state 288]
+type = null
+trigger1 = 1
+[state 289]
+type = null
+trigger1 = 1
+[state 290]
+type = null
+trigger1 = 1
+[state 291]
+type = null
+trigger1 = 1
+[state 292]
+type = null
+trigger1 = 1
+[state 293]
+type = null
+trigger1 = 1
+[state 294]
+type = null
+trigger1 = 1
+[state 295]
+type = null
+trigger1 = 1
+[state 296]
+type = null
+trigger1 = 1
+[state 297]
+type = null
+trigger1 = 1
+[state 298]
+type = null
+trigger1 = 1
+[state 299]
+type = null
+trigger1 = 1
+[state 300]
+type = null
+trigger1 = 1
+[state 301]
+type = null
+trigger1 = 1
+[state 302]
+type = null
+trigger1 = 1
+[state 303]
+type = null
+trigger1 = 1
+[state 304]
+type = null
+trigger1 = 1
+[state 305]
+type = null
+trigger1 = 1
+[state 306]
+type = null
+trigger1 = 1
+[state 307]
+type = null
+trigger1 = 1
+[state 308]
+type = null
+trigger1 = 1
+[state 309]
+type = null
+trigger1 = 1
+[state 310]
+type = null
+trigger1 = 1
+[state 311]
+type = null
+trigger1 = 1
+[state 312]
+type = null
+trigger1 = 1
+[state 313]
+type = null
+trigger1 = 1
+[state 314]
+type = null
+trigger1 = 1
+[state 315]
+type = null
+trigger1 = 1
+[state 316]
+type = null
+trigger1 = 1
+[state 317]
+type = null
+trigger1 = 1
+[state 318]
+type = null
+trigger1 = 1
+[state 319]
+type = null
+trigger1 = 1
+[state 320]
+type = null
+trigger1 = 1
+[state 321]
+type = null
+trigger1 = 1
+[state 322]
+type = null
+trigger1 = 1
+[state 323]
+type = null
+trigger1 = 1
+[state 324]
+type = null
+trigger1 = 1
+[state 325]
+type = null
+trigger1 = 1
+[state 326]
+type = null
+trigger1 = 1
+[state 327]
+type = null
+trigger1 = 1
+[state 328]
+type = null
+trigger1 = 1
+[state 329]
+type = null
+trigger1 = 1
+[state 330]
+type = null
+trigger1 = 1
+[state 331]
+type = null
+trigger1 = 1
+[state 332]
+type = null
+trigger1 = 1
+[state 333]
+type = null
+trigger1 = 1
+[state 334]
+type = null
+trigger1 = 1
+[state 335]
+type = null
+trigger1 = 1
+[state 336]
+type = null
+trigger1 = 1
+[state 337]
+type = null
+trigger1 = 1
+[state 338]
+type = null
+trigger1 = 1
+[state 339]
+type = null
+trigger1 = 1
+[state 340]
+type = null
+trigger1 = 1
+[state 341]
+type = null
+trigger1 = 1
+[state 342]
+type = null
+trigger1 = 1
+[state 343]
+type = null
+trigger1 = 1
+[state 344]
+type = null
+trigger1 = 1
+[state 345]
+type = null
+trigger1 = 1
+[state 346]
+type = null
+trigger1 = 1
+[state 347]
+type = null
+trigger1 = 1
+[state 348]
+type = null
+trigger1 = 1
+[state 349]
+type = null
+trigger1 = 1
+[state 350]
+type = null
+trigger1 = 1
+[state 351]
+type = null
+trigger1 = 1
+[state 352]
+type = null
+trigger1 = 1
+[state 353]
+type = null
+trigger1 = 1
+[state 354]
+type = null
+trigger1 = 1
+[state 355]
+type = null
+trigger1 = 1
+[state 356]
+type = null
+trigger1 = 1
+[state 357]
+type = null
+trigger1 = 1
+[state 358]
+type = null
+trigger1 = 1
+[state 359]
+type = null
+trigger1 = 1
+[state 360]
+type = null
+trigger1 = 1
+[state 361]
+type = null
+trigger1 = 1
+[state 362]
+type = null
+trigger1 = 1
+[state 363]
+type = null
+trigger1 = 1
+[state 364]
+type = null
+trigger1 = 1
+[state 365]
+type = null
+trigger1 = 1
+[state 366]
+type = null
+trigger1 = 1
+[state 367]
+type = null
+trigger1 = 1
+[state 368]
+type = null
+trigger1 = 1
+[state 369]
+type = null
+trigger1 = 1
+[state 370]
+type = null
+trigger1 = 1
+[state 371]
+type = null
+trigger1 = 1
+[state 372]
+type = null
+trigger1 = 1
+[state 373]
+type = null
+trigger1 = 1
+[state 374]
+type = null
+trigger1 = 1
+[state 375]
+type = null
+trigger1 = 1
+[state 376]
+type = null
+trigger1 = 1
+[state 377]
+type = null
+trigger1 = 1
+[state 378]
+type = null
+trigger1 = 1
+[state 379]
+type = null
+trigger1 = 1
+[state 380]
+type = null
+trigger1 = 1
+[state 381]
+type = null
+trigger1 = 1
+[state 382]
+type = null
+trigger1 = 1
+[state 383]
+type = null
+trigger1 = 1
+[state 384]
+type = null
+trigger1 = 1
+[state 385]
+type = null
+trigger1 = 1
+[state 386]
+type = null
+trigger1 = 1
+[state 387]
+type = null
+trigger1 = 1
+[state 388]
+type = null
+trigger1 = 1
+[state 389]
+type = null
+trigger1 = 1
+[state 390]
+type = null
+trigger1 = 1
+[state 391]
+type = null
+trigger1 = 1
+[state 392]
+type = null
+trigger1 = 1
+[state 393]
+type = null
+trigger1 = 1
+[state 394]
+type = null
+trigger1 = 1
+[state 395]
+type = null
+trigger1 = 1
+[state 396]
+type = null
+trigger1 = 1
+[state 397]
+type = null
+trigger1 = 1
+[state 398]
+type = null
+trigger1 = 1
+[state 399]
+type = null
+trigger1 = 1
+[state 400]
+type = null
+trigger1 = 1
+[state 401]
+type = null
+trigger1 = 1
+[state 402]
+type = null
+trigger1 = 1
+[state 403]
+type = null
+trigger1 = 1
+[state 404]
+type = null
+trigger1 = 1
+[state 405]
+type = null
+trigger1 = 1
+[state 406]
+type = null
+trigger1 = 1
+[state 407]
+type = null
+trigger1 = 1
+[state 408]
+type = null
+trigger1 = 1
+[state 409]
+type = null
+trigger1 = 1
+[state 410]
+type = null
+trigger1 = 1
+[state 411]
+type = null
+trigger1 = 1
+[state 412]
+type = null
+trigger1 = 1
+[state 413]
+type = null
+trigger1 = 1
+[state 414]
+type = null
+trigger1 = 1
+[state 415]
+type = null
+trigger1 = 1
+[state 416]
+type = null
+trigger1 = 1
+[state 417]
+type = null
+trigger1 = 1
+[state 418]
+type = null
+trigger1 = 1
+[state 419]
+type = null
+trigger1 = 1
+[state 420]
+type = null
+trigger1 = 1
+[state 421]
+type = null
+trigger1 = 1
+[state 422]
+type = null
+trigger1 = 1
+[state 423]
+type = null
+trigger1 = 1
+[state 424]
+type = null
+trigger1 = 1
+[state 425]
+type = null
+trigger1 = 1
+[state 426]
+type = null
+trigger1 = 1
+[state 427]
+type = null
+trigger1 = 1
+[state 428]
+type = null
+trigger1 = 1
+[state 429]
+type = null
+trigger1 = 1
+[state 430]
+type = null
+trigger1 = 1
+[state 431]
+type = null
+trigger1 = 1
+[state 432]
+type = null
+trigger1 = 1
+[state 433]
+type = null
+trigger1 = 1
+[state 434]
+type = null
+trigger1 = 1
+[state 435]
+type = null
+trigger1 = 1
+[state 436]
+type = null
+trigger1 = 1
+[state 437]
+type = null
+trigger1 = 1
+[state 438]
+type = null
+trigger1 = 1
+[state 439]
+type = null
+trigger1 = 1
+[state 440]
+type = null
+trigger1 = 1
+[state 441]
+type = null
+trigger1 = 1
+[state 442]
+type = null
+trigger1 = 1
+[state 443]
+type = null
+trigger1 = 1
+[state 444]
+type = null
+trigger1 = 1
+[state 445]
+type = null
+trigger1 = 1
+[state 446]
+type = null
+trigger1 = 1
+[state 447]
+type = null
+trigger1 = 1
+[state 448]
+type = null
+trigger1 = 1
+[state 449]
+type = null
+trigger1 = 1
+[state 450]
+type = null
+trigger1 = 1
+[state 451]
+type = null
+trigger1 = 1
+[state 452]
+type = null
+trigger1 = 1
+[state 453]
+type = null
+trigger1 = 1
+[state 454]
+type = null
+trigger1 = 1
+[state 455]
+type = null
+trigger1 = 1
+[state 456]
+type = null
+trigger1 = 1
+[state 457]
+type = null
+trigger1 = 1
+[state 458]
+type = null
+trigger1 = 1
+[state 459]
+type = null
+trigger1 = 1
+[state 460]
+type = null
+trigger1 = 1
+[state 461]
+type = null
+trigger1 = 1
+[state 462]
+type = null
+trigger1 = 1
+[state 463]
+type = null
+trigger1 = 1
+[state 464]
+type = null
+trigger1 = 1
+[state 465]
+type = null
+trigger1 = 1
+[state 466]
+type = null
+trigger1 = 1
+[state 467]
+type = null
+trigger1 = 1
+[state 468]
+type = null
+trigger1 = 1
+[state 469]
+type = null
+trigger1 = 1
+[state 470]
+type = null
+trigger1 = 1
+[state 471]
+type = null
+trigger1 = 1
+[state 472]
+type = null
+trigger1 = 1
+[state 473]
+type = null
+trigger1 = 1
+[state 474]
+type = null
+trigger1 = 1
+[state 475]
+type = null
+trigger1 = 1
+[state 476]
+type = null
+trigger1 = 1
+[state 477]
+type = null
+trigger1 = 1
+[state 478]
+type = null
+trigger1 = 1
+[state 479]
+type = null
+trigger1 = 1
+[state 480]
+type = null
+trigger1 = 1
+[state 481]
+type = null
+trigger1 = 1
+[state 482]
+type = null
+trigger1 = 1
+[state 483]
+type = null
+trigger1 = 1
+[state 484]
+type = null
+trigger1 = 1
+[state 485]
+type = null
+trigger1 = 1
+[state 486]
+type = null
+trigger1 = 1
+[state 487]
+type = null
+trigger1 = 1
+[state 488]
+type = null
+trigger1 = 1
+[state 489]
+type = null
+trigger1 = 1
+[state 490]
+type = null
+trigger1 = 1
+[state 491]
+type = null
+trigger1 = 1
+[state 492]
+type = null
+trigger1 = 1
+[state 493]
+type = null
+trigger1 = 1
+[state 494]
+type = null
+trigger1 = 1
+[state 495]
+type = null
+trigger1 = 1
+[state 496]
+type = null
+trigger1 = 1
+[state 497]
+type = null
+trigger1 = 1
+[state 498]
+type = null
+trigger1 = 1
+[state 499]
+type = null
+trigger1 = 1
+[state 500]
+type = null
+trigger1 = 1
+[state 501]
+type = null
+trigger1 = 1
+[state 502]
+type = null
+trigger1 = 1
+[state 503]
+type = null
+trigger1 = 1
+[state 504]
+type = null
+trigger1 = 1
+[state 505]
+type = null
+trigger1 = 1
+[state 506]
+type = null
+trigger1 = 1
+[state 507]
+type = null
+trigger1 = 1
+[state 508]
+type = null
+trigger1 = 1
+[state 509]
+type = null
+trigger1 = 1
+[state 510]
+type = null
+trigger1 = 1
+[state 511]
+type = null
+trigger1 = 1
+[state 512]
+type = null
+trigger1 = 1
+[state 513]
+type = null
+trigger1 = 1
+[state 514]
+type = null
+trigger1 = 1
+[state 515]
+type = null
+trigger1 = 1
+[state 516]
+type = null
+trigger1 = 1
+[state 517]
+type = null
+trigger1 = 1
+[state 518]
+type = null
+trigger1 = 1
+[state 519]
+type = null
+trigger1 = 1
+[state 520]
+type = null
+trigger1 = 1
+[state 521]
+type = null
+trigger1 = 1
+[state 522]
+type = null
+trigger1 = 1
+[state 523]
+type = null
+trigger1 = 1
+[state 524]
+type = null
+trigger1 = 1
+[state 525]
+type = null
+trigger1 = 1
+[state 526]
+type = null
+trigger1 = 1
+[state 527]
+type = null
+trigger1 = 1
+[state 528]
+type = null
+trigger1 = 1
+[state 529]
+type = null
+trigger1 = 1
+[state 530]
+type = null
+trigger1 = 1
+[state 531]
+type = null
+trigger1 = 1
+[state 532]
+type = null
+trigger1 = 1
+[state 533]
+type = null
+trigger1 = 1
+[state 534]
+type = null
+trigger1 = 1
+[state 535]
+type = null
+trigger1 = 1
+[state 536]
+type = null
+trigger1 = 1
+[state 537]
+type = null
+trigger1 = 1
+[state 538]
+type = null
+trigger1 = 1
+[state 539]
+type = null
+trigger1 = 1
+[state 540]
+type = null
+trigger1 = 1
+[state 541]
+type = null
+trigger1 = 1
+[state 542]
+type = null
+trigger1 = 1
+[state 543]
+type = null
+trigger1 = 1
+[state 544]
+type = null
+trigger1 = 1
+[state 545]
+type = null
+trigger1 = 1
+[state 546]
+type = null
+trigger1 = 1
+[state 547]
+type = null
+trigger1 = 1
+[state 548]
+type = null
+trigger1 = 1
+[state 549]
+type = null
+trigger1 = 1
+[state 550]
+type = null
+trigger1 = 1
+[state 551]
+type = null
+trigger1 = 1
+[state 552]
+type = null
+trigger1 = 1
+[State 553];alive-1
+type = ChangeState
+trigger1 = alive = -256
+value = sysvar(4);刷完了，返回刷值之前的狀態號
+persistent = 255
+ignorehitpause = 1
+[State 554];alive-2
+type = ChangeState
+trigger1 = alive = -65536
+value = Stateno;沒刷完，迴圈繼續刷
+persistent = 255
+ignorehitpause = 1
+[State 555];alive-3
+type = ChangeState
+trigger1 = alive = -16777216
+value = Stateno;沒刷完，迴圈繼續刷
+persistent = 255
+ignorehitpause = 1
+[State 556];alive-4
+type = ChangeState
+trigger1 = 1
+value = Stateno;沒刷完，迴圈繼續刷
+persistent = 255
+ignorehitpause = 1
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+;苏生null
+;蘇生
+;將自己的Alive刷回1，通常用於配合強制死之宣告發動
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[statedef 1000001]
+type = U
+movetype = U
+physics = U
+
+[state 1]
+type = null
+trigger1 = 1
+[state 2]
+type = null
+trigger1 = 1
+[state 3]
+type = null
+trigger1 = 1
+[state 4]
+type = null
+trigger1 = 1
+[state 5]
+type = null
+trigger1 = 1
+[state 6]
+type = null
+trigger1 = 1
+[state 7]
+type = null
+trigger1 = 1
+[state 8]
+type = null
+trigger1 = 1
+[state 9]
+type = null
+trigger1 = 1
+[state 10]
+type = null
+trigger1 = 1
+[state 11]
+type = null
+trigger1 = 1
+[state 12]
+type = null
+trigger1 = 1
+[state 13]
+type = null
+trigger1 = 1
+[state 14]
+type = null
+trigger1 = 1
+[state 15]
+type = null
+trigger1 = 1
+[state 16]
+type = null
+trigger1 = 1
+[state 17]
+type = null
+trigger1 = 1
+[state 18]
+type = null
+trigger1 = 1
+[state 19]
+type = null
+trigger1 = 1
+[state 20]
+type = null
+trigger1 = 1
+[state 21]
+type = null
+trigger1 = 1
+[state 22]
+type = null
+trigger1 = 1
+[state 23]
+type = null
+trigger1 = 1
+[state 24]
+type = null
+trigger1 = 1
+[state 25]
+type = null
+trigger1 = 1
+[state 26]
+type = null
+trigger1 = 1
+[state 27]
+type = null
+trigger1 = 1
+[state 28]
+type = null
+trigger1 = 1
+[state 29]
+type = null
+trigger1 = 1
+[state 30]
+type = null
+trigger1 = 1
+[state 31]
+type = null
+trigger1 = 1
+[state 32]
+type = null
+trigger1 = 1
+[state 33]
+type = null
+trigger1 = 1
+[state 34]
+type = null
+trigger1 = 1
+[state 35]
+type = null
+trigger1 = 1
+[state 36]
+type = null
+trigger1 = 1
+[state 37]
+type = null
+trigger1 = 1
+[state 38]
+type = null
+trigger1 = 1
+[state 39]
+type = null
+trigger1 = 1
+[state 40]
+type = null
+trigger1 = 1
+[state 41]
+type = null
+trigger1 = 1
+[state 42]
+type = null
+trigger1 = 1
+[state 43]
+type = null
+trigger1 = 1
+[state 44]
+type = null
+trigger1 = 1
+[state 45]
+type = null
+trigger1 = 1
+[state 46]
+type = null
+trigger1 = 1
+[state 47]
+type = null
+trigger1 = 1
+[state 48]
+type = null
+trigger1 = 1
+[state 49]
+type = null
+trigger1 = 1
+[state 50]
+type = null
+trigger1 = 1
+[state 51]
+type = null
+trigger1 = 1
+[state 52]
+type = null
+trigger1 = 1
+[state 53]
+type = null
+trigger1 = 1
+[state 54]
+type = null
+trigger1 = 1
+[state 55]
+type = null
+trigger1 = 1
+[state 56]
+type = null
+trigger1 = 1
+[state 57]
+type = null
+trigger1 = 1
+[state 58]
+type = null
+trigger1 = 1
+[state 59]
+type = null
+trigger1 = 1
+[state 60]
+type = null
+trigger1 = 1
+[state 61]
+type = null
+trigger1 = 1
+[state 62]
+type = null
+trigger1 = 1
+[state 63]
+type = null
+trigger1 = 1
+[state 64]
+type = null
+trigger1 = 1
+[state 65]
+type = null
+trigger1 = 1
+[state 66]
+type = null
+trigger1 = 1
+[state 67]
+type = null
+trigger1 = 1
+[state 68]
+type = null
+trigger1 = 1
+[state 69]
+type = null
+trigger1 = 1
+[state 70]
+type = null
+trigger1 = 1
+[state 71]
+type = null
+trigger1 = 1
+[state 72]
+type = null
+trigger1 = 1
+[state 73]
+type = null
+trigger1 = 1
+[state 74]
+type = null
+trigger1 = 1
+[state 75]
+type = null
+trigger1 = 1
+[state 76]
+type = null
+trigger1 = 1
+[state 77]
+type = null
+trigger1 = 1
+[state 78]
+type = null
+trigger1 = 1
+[state 79]
+type = null
+trigger1 = 1
+[state 80]
+type = null
+trigger1 = 1
+[state 81]
+type = null
+trigger1 = 1
+[state 82]
+type = null
+trigger1 = 1
+[state 83]
+type = null
+trigger1 = 1
+[state 84]
+type = null
+trigger1 = 1
+[state 85]
+type = null
+trigger1 = 1
+[state 86]
+type = null
+trigger1 = 1
+[state 87]
+type = null
+trigger1 = 1
+[state 88]
+type = null
+trigger1 = 1
+[state 89]
+type = null
+trigger1 = 1
+[state 90]
+type = null
+trigger1 = 1
+[state 91]
+type = null
+trigger1 = 1
+[state 92]
+type = null
+trigger1 = 1
+[state 93]
+type = null
+trigger1 = 1
+[state 94]
+type = null
+trigger1 = 1
+[state 95]
+type = null
+trigger1 = 1
+[state 96]
+type = null
+trigger1 = 1
+[state 97]
+type = null
+trigger1 = 1
+[state 98]
+type = null
+trigger1 = 1
+[state 99]
+type = null
+trigger1 = 1
+[state 100]
+type = null
+trigger1 = 1
+[state 101]
+type = null
+trigger1 = 1
+[state 102]
+type = null
+trigger1 = 1
+[state 103]
+type = null
+trigger1 = 1
+[state 104]
+type = null
+trigger1 = 1
+[state 105]
+type = null
+trigger1 = 1
+[state 106]
+type = null
+trigger1 = 1
+[state 107]
+type = null
+trigger1 = 1
+[state 108]
+type = null
+trigger1 = 1
+[state 109]
+type = null
+trigger1 = 1
+[state 110]
+type = null
+trigger1 = 1
+[state 111]
+type = null
+trigger1 = 1
+[state 112]
+type = null
+trigger1 = 1
+[state 113]
+type = null
+trigger1 = 1
+[state 114]
+type = null
+trigger1 = 1
+[state 115]
+type = null
+trigger1 = 1
+[state 116]
+type = null
+trigger1 = 1
+[state 117]
+type = null
+trigger1 = 1
+[state 118]
+type = null
+trigger1 = 1
+[state 119]
+type = null
+trigger1 = 1
+[state 120]
+type = null
+trigger1 = 1
+[state 121]
+type = null
+trigger1 = 1
+[state 122]
+type = null
+trigger1 = 1
+[state 123]
+type = null
+trigger1 = 1
+[state 124]
+type = null
+trigger1 = 1
+[state 125]
+type = null
+trigger1 = 1
+[state 126]
+type = null
+trigger1 = 1
+[state 127]
+type = null
+trigger1 = 1
+[state 128]
+type = null
+trigger1 = 1
+[state 129]
+type = null
+trigger1 = 1
+[state 130]
+type = null
+trigger1 = 1
+[state 131]
+type = null
+trigger1 = 1
+[state 132]
+type = null
+trigger1 = 1
+[state 133]
+type = null
+trigger1 = 1
+[state 134]
+type = null
+trigger1 = 1
+[state 135]
+type = null
+trigger1 = 1
+[state 136]
+type = null
+trigger1 = 1
+[state 137]
+type = null
+trigger1 = 1
+[state 138]
+type = null
+trigger1 = 1
+[state 139]
+type = null
+trigger1 = 1
+[state 140]
+type = null
+trigger1 = 1
+[state 141]
+type = null
+trigger1 = 1
+[state 142]
+type = null
+trigger1 = 1
+[state 143]
+type = null
+trigger1 = 1
+[state 144]
+type = null
+trigger1 = 1
+[state 145]
+type = null
+trigger1 = 1
+[state 146]
+type = null
+trigger1 = 1
+[state 147]
+type = null
+trigger1 = 1
+[state 148]
+type = null
+trigger1 = 1
+[state 149]
+type = null
+trigger1 = 1
+[state 150]
+type = null
+trigger1 = 1
+[state 151]
+type = null
+trigger1 = 1
+[state 152]
+type = null
+trigger1 = 1
+[state 153]
+type = null
+trigger1 = 1
+[state 154]
+type = null
+trigger1 = 1
+[state 155]
+type = null
+trigger1 = 1
+[state 156]
+type = null
+trigger1 = 1
+[state 157]
+type = null
+trigger1 = 1
+[state 158]
+type = null
+trigger1 = 1
+[state 159]
+type = null
+trigger1 = 1
+[state 160]
+type = null
+trigger1 = 1
+[state 161]
+type = null
+trigger1 = 1
+[state 162]
+type = null
+trigger1 = 1
+[state 163]
+type = null
+trigger1 = 1
+[state 164]
+type = null
+trigger1 = 1
+[state 165]
+type = null
+trigger1 = 1
+[state 166]
+type = null
+trigger1 = 1
+[state 167]
+type = null
+trigger1 = 1
+[state 168]
+type = null
+trigger1 = 1
+[state 169]
+type = null
+trigger1 = 1
+[state 170]
+type = null
+trigger1 = 1
+[state 171]
+type = null
+trigger1 = 1
+[state 172]
+type = null
+trigger1 = 1
+[state 173]
+type = null
+trigger1 = 1
+[state 174]
+type = null
+trigger1 = 1
+[state 175]
+type = null
+trigger1 = 1
+[state 176]
+type = null
+trigger1 = 1
+[state 177]
+type = null
+trigger1 = 1
+[state 178]
+type = null
+trigger1 = 1
+[state 179]
+type = null
+trigger1 = 1
+[state 180]
+type = null
+trigger1 = 1
+[state 181]
+type = null
+trigger1 = 1
+[state 182]
+type = null
+trigger1 = 1
+[state 183]
+type = null
+trigger1 = 1
+[state 184]
+type = null
+trigger1 = 1
+[state 185]
+type = null
+trigger1 = 1
+[state 186]
+type = null
+trigger1 = 1
+[state 187]
+type = null
+trigger1 = 1
+[state 188]
+type = null
+trigger1 = 1
+[state 189]
+type = null
+trigger1 = 1
+[state 190]
+type = null
+trigger1 = 1
+[state 191]
+type = null
+trigger1 = 1
+[state 192]
+type = null
+trigger1 = 1
+[state 193]
+type = null
+trigger1 = 1
+[state 194]
+type = null
+trigger1 = 1
+[state 195]
+type = null
+trigger1 = 1
+[state 196]
+type = null
+trigger1 = 1
+[state 197]
+type = null
+trigger1 = 1
+[state 198]
+type = null
+trigger1 = 1
+[state 199]
+type = null
+trigger1 = 1
+[state 200]
+type = null
+trigger1 = 1
+[state 201]
+type = null
+trigger1 = 1
+[state 202]
+type = null
+trigger1 = 1
+[state 203]
+type = null
+trigger1 = 1
+[state 204]
+type = null
+trigger1 = 1
+[state 205]
+type = null
+trigger1 = 1
+[state 206]
+type = null
+trigger1 = 1
+[state 207]
+type = null
+trigger1 = 1
+[state 208]
+type = null
+trigger1 = 1
+[state 209]
+type = null
+trigger1 = 1
+[state 210]
+type = null
+trigger1 = 1
+[state 211]
+type = null
+trigger1 = 1
+[state 212]
+type = null
+trigger1 = 1
+[state 213]
+type = null
+trigger1 = 1
+[state 214]
+type = null
+trigger1 = 1
+[state 215]
+type = null
+trigger1 = 1
+[state 216]
+type = null
+trigger1 = 1
+[state 217]
+type = null
+trigger1 = 1
+[state 218]
+type = null
+trigger1 = 1
+[state 219]
+type = null
+trigger1 = 1
+[state 220]
+type = null
+trigger1 = 1
+[state 221]
+type = null
+trigger1 = 1
+[state 222]
+type = null
+trigger1 = 1
+[state 223]
+type = null
+trigger1 = 1
+[state 224]
+type = null
+trigger1 = 1
+[state 225]
+type = null
+trigger1 = 1
+[state 226]
+type = null
+trigger1 = 1
+[state 227]
+type = null
+trigger1 = 1
+[state 228]
+type = null
+trigger1 = 1
+[state 229]
+type = null
+trigger1 = 1
+[state 230]
+type = null
+trigger1 = 1
+[state 231]
+type = null
+trigger1 = 1
+[state 232]
+type = null
+trigger1 = 1
+[state 233]
+type = null
+trigger1 = 1
+[state 234]
+type = null
+trigger1 = 1
+[state 235]
+type = null
+trigger1 = 1
+[state 236]
+type = null
+trigger1 = 1
+[state 237]
+type = null
+trigger1 = 1
+[state 238]
+type = null
+trigger1 = 1
+[state 239]
+type = null
+trigger1 = 1
+[state 240]
+type = null
+trigger1 = 1
+[state 241]
+type = null
+trigger1 = 1
+[state 242]
+type = null
+trigger1 = 1
+[state 243]
+type = null
+trigger1 = 1
+[state 244]
+type = null
+trigger1 = 1
+[state 245]
+type = null
+trigger1 = 1
+[state 246]
+type = null
+trigger1 = 1
+[state 247]
+type = null
+trigger1 = 1
+[state 248]
+type = null
+trigger1 = 1
+[state 249]
+type = null
+trigger1 = 1
+[state 250]
+type = null
+trigger1 = 1
+[state 251]
+type = null
+trigger1 = 1
+[state 252]
+type = null
+trigger1 = 1
+[state 253]
+type = null
+trigger1 = 1
+[state 254]
+type = null
+trigger1 = 1
+[state 255]
+type = null
+trigger1 = 1
+[state 256]
+type = null
+trigger1 = 1
+[state 257]
+type = null
+trigger1 = 1
+[state 258]
+type = null
+trigger1 = 1
+[state 259]
+type = null
+trigger1 = 1
+[state 260]
+type = null
+trigger1 = 1
+[state 261]
+type = null
+trigger1 = 1
+[state 262]
+type = null
+trigger1 = 1
+[state 263]
+type = null
+trigger1 = 1
+[state 264]
+type = null
+trigger1 = 1
+[state 265]
+type = null
+trigger1 = 1
+[state 266]
+type = null
+trigger1 = 1
+[state 267]
+type = null
+trigger1 = 1
+[state 268]
+type = null
+trigger1 = 1
+[state 269]
+type = null
+trigger1 = 1
+[state 270]
+type = null
+trigger1 = 1
+[state 271]
+type = null
+trigger1 = 1
+[state 272]
+type = null
+trigger1 = 1
+[state 273]
+type = null
+trigger1 = 1
+[state 274]
+type = null
+trigger1 = 1
+[state 275]
+type = null
+trigger1 = 1
+[state 276]
+type = null
+trigger1 = 1
+[state 277]
+type = null
+trigger1 = 1
+[state 278]
+type = null
+trigger1 = 1
+[state 279]
+type = null
+trigger1 = 1
+[state 280]
+type = null
+trigger1 = 1
+[state 281]
+type = null
+trigger1 = 1
+[state 282]
+type = null
+trigger1 = 1
+[state 283]
+type = null
+trigger1 = 1
+[state 284]
+type = null
+trigger1 = 1
+[state 285]
+type = null
+trigger1 = 1
+[state 286]
+type = null
+trigger1 = 1
+[state 287]
+type = null
+trigger1 = 1
+[state 288]
+type = null
+trigger1 = 1
+[state 289]
+type = null
+trigger1 = 1
+[state 290]
+type = null
+trigger1 = 1
+[state 291]
+type = null
+trigger1 = 1
+[state 292]
+type = null
+trigger1 = 1
+[state 293]
+type = null
+trigger1 = 1
+[state 294]
+type = null
+trigger1 = 1
+[state 295]
+type = null
+trigger1 = 1
+[state 296]
+type = null
+trigger1 = 1
+[state 297]
+type = null
+trigger1 = 1
+[state 298]
+type = null
+trigger1 = 1
+[state 299]
+type = null
+trigger1 = 1
+[state 300]
+type = null
+trigger1 = 1
+[state 301]
+type = null
+trigger1 = 1
+[state 302]
+type = null
+trigger1 = 1
+[state 303]
+type = null
+trigger1 = 1
+[state 304]
+type = null
+trigger1 = 1
+[state 305]
+type = null
+trigger1 = 1
+[state 306]
+type = null
+trigger1 = 1
+[state 307]
+type = null
+trigger1 = 1
+[state 308]
+type = null
+trigger1 = 1
+[state 309]
+type = null
+trigger1 = 1
+[state 310]
+type = null
+trigger1 = 1
+[state 311]
+type = null
+trigger1 = 1
+[state 312]
+type = null
+trigger1 = 1
+[state 313]
+type = null
+trigger1 = 1
+[state 314]
+type = null
+trigger1 = 1
+[state 315]
+type = null
+trigger1 = 1
+[state 316]
+type = null
+trigger1 = 1
+[state 317]
+type = null
+trigger1 = 1
+[state 318]
+type = null
+trigger1 = 1
+[state 319]
+type = null
+trigger1 = 1
+[state 320]
+type = null
+trigger1 = 1
+[state 321]
+type = null
+trigger1 = 1
+[state 322]
+type = null
+trigger1 = 1
+[state 323]
+type = null
+trigger1 = 1
+[state 324]
+type = null
+trigger1 = 1
+[state 325]
+type = null
+trigger1 = 1
+[state 326]
+type = null
+trigger1 = 1
+[state 327]
+type = null
+trigger1 = 1
+[state 328]
+type = null
+trigger1 = 1
+[state 329]
+type = null
+trigger1 = 1
+[state 330]
+type = null
+trigger1 = 1
+[state 331]
+type = null
+trigger1 = 1
+[state 332]
+type = null
+trigger1 = 1
+[state 333]
+type = null
+trigger1 = 1
+[state 334]
+type = null
+trigger1 = 1
+[state 335]
+type = null
+trigger1 = 1
+[state 336]
+type = null
+trigger1 = 1
+[state 337]
+type = null
+trigger1 = 1
+[state 338]
+type = null
+trigger1 = 1
+[state 339]
+type = null
+trigger1 = 1
+[state 340]
+type = null
+trigger1 = 1
+[state 341]
+type = null
+trigger1 = 1
+[state 342]
+type = null
+trigger1 = 1
+[state 343]
+type = null
+trigger1 = 1
+[state 344]
+type = null
+trigger1 = 1
+[state 345]
+type = null
+trigger1 = 1
+[state 346]
+type = null
+trigger1 = 1
+[state 347]
+type = null
+trigger1 = 1
+[state 348]
+type = null
+trigger1 = 1
+[state 349]
+type = null
+trigger1 = 1
+[state 350]
+type = null
+trigger1 = 1
+[state 351]
+type = null
+trigger1 = 1
+[state 352]
+type = null
+trigger1 = 1
+[state 353]
+type = null
+trigger1 = 1
+[state 354]
+type = null
+trigger1 = 1
+[state 355]
+type = null
+trigger1 = 1
+[state 356]
+type = null
+trigger1 = 1
+[state 357]
+type = null
+trigger1 = 1
+[state 358]
+type = null
+trigger1 = 1
+[state 359]
+type = null
+trigger1 = 1
+[state 360]
+type = null
+trigger1 = 1
+[state 361]
+type = null
+trigger1 = 1
+[state 362]
+type = null
+trigger1 = 1
+[state 363]
+type = null
+trigger1 = 1
+[state 364]
+type = null
+trigger1 = 1
+[state 365]
+type = null
+trigger1 = 1
+[state 366]
+type = null
+trigger1 = 1
+[state 367]
+type = null
+trigger1 = 1
+[state 368]
+type = null
+trigger1 = 1
+[state 369]
+type = null
+trigger1 = 1
+[state 370]
+type = null
+trigger1 = 1
+[state 371]
+type = null
+trigger1 = 1
+[state 372]
+type = null
+trigger1 = 1
+[state 373]
+type = null
+trigger1 = 1
+[state 374]
+type = null
+trigger1 = 1
+[state 375]
+type = null
+trigger1 = 1
+[state 376]
+type = null
+trigger1 = 1
+[state 377]
+type = null
+trigger1 = 1
+[state 378]
+type = null
+trigger1 = 1
+[state 379]
+type = null
+trigger1 = 1
+[state 380]
+type = null
+trigger1 = 1
+[state 381]
+type = null
+trigger1 = 1
+[state 382]
+type = null
+trigger1 = 1
+[state 383]
+type = null
+trigger1 = 1
+[state 384]
+type = null
+trigger1 = 1
+[state 385]
+type = null
+trigger1 = 1
+[state 386]
+type = null
+trigger1 = 1
+[state 387]
+type = null
+trigger1 = 1
+[state 388]
+type = null
+trigger1 = 1
+[state 389]
+type = null
+trigger1 = 1
+[state 390]
+type = null
+trigger1 = 1
+[state 391]
+type = null
+trigger1 = 1
+[state 392]
+type = null
+trigger1 = 1
+[state 393]
+type = null
+trigger1 = 1
+[state 394]
+type = null
+trigger1 = 1
+[state 395]
+type = null
+trigger1 = 1
+[state 396]
+type = null
+trigger1 = 1
+[state 397]
+type = null
+trigger1 = 1
+[state 398]
+type = null
+trigger1 = 1
+[state 399]
+type = null
+trigger1 = 1
+[state 400]
+type = null
+trigger1 = 1
+[state 401]
+type = null
+trigger1 = 1
+[state 402]
+type = null
+trigger1 = 1
+[state 403]
+type = null
+trigger1 = 1
+[state 404]
+type = null
+trigger1 = 1
+[state 405]
+type = null
+trigger1 = 1
+[state 406]
+type = null
+trigger1 = 1
+[state 407]
+type = null
+trigger1 = 1
+[state 408]
+type = null
+trigger1 = 1
+[state 409]
+type = null
+trigger1 = 1
+[state 410]
+type = null
+trigger1 = 1
+[state 411]
+type = null
+trigger1 = 1
+[state 412]
+type = null
+trigger1 = 1
+[state 413]
+type = null
+trigger1 = 1
+[state 414]
+type = null
+trigger1 = 1
+[state 415]
+type = null
+trigger1 = 1
+[state 416]
+type = null
+trigger1 = 1
+[state 417]
+type = null
+trigger1 = 1
+[state 418]
+type = null
+trigger1 = 1
+[state 419]
+type = null
+trigger1 = 1
+[state 420]
+type = null
+trigger1 = 1
+[state 421]
+type = null
+trigger1 = 1
+[state 422]
+type = null
+trigger1 = 1
+[state 423]
+type = null
+trigger1 = 1
+[state 424]
+type = null
+trigger1 = 1
+[state 425]
+type = null
+trigger1 = 1
+[state 426]
+type = null
+trigger1 = 1
+[state 427]
+type = null
+trigger1 = 1
+[state 428]
+type = null
+trigger1 = 1
+[state 429]
+type = null
+trigger1 = 1
+[state 430]
+type = null
+trigger1 = 1
+[state 431]
+type = null
+trigger1 = 1
+[state 432]
+type = null
+trigger1 = 1
+[state 433]
+type = null
+trigger1 = 1
+[state 434]
+type = null
+trigger1 = 1
+[state 435]
+type = null
+trigger1 = 1
+[state 436]
+type = null
+trigger1 = 1
+[state 437]
+type = null
+trigger1 = 1
+[state 438]
+type = null
+trigger1 = 1
+[state 439]
+type = null
+trigger1 = 1
+[state 440]
+type = null
+trigger1 = 1
+[state 441]
+type = null
+trigger1 = 1
+[state 442]
+type = null
+trigger1 = 1
+[state 443]
+type = null
+trigger1 = 1
+[state 444]
+type = null
+trigger1 = 1
+[state 445]
+type = null
+trigger1 = 1
+[state 446]
+type = null
+trigger1 = 1
+[state 447]
+type = null
+trigger1 = 1
+[state 448]
+type = null
+trigger1 = 1
+[state 449]
+type = null
+trigger1 = 1
+[state 450]
+type = null
+trigger1 = 1
+[state 451]
+type = null
+trigger1 = 1
+[state 452]
+type = null
+trigger1 = 1
+[state 453]
+type = null
+trigger1 = 1
+[state 454]
+type = null
+trigger1 = 1
+[state 455]
+type = null
+trigger1 = 1
+[state 456]
+type = null
+trigger1 = 1
+[state 457]
+type = null
+trigger1 = 1
+[state 458]
+type = null
+trigger1 = 1
+[state 459]
+type = null
+trigger1 = 1
+[state 460]
+type = null
+trigger1 = 1
+[state 461]
+type = null
+trigger1 = 1
+[state 462]
+type = null
+trigger1 = 1
+[state 463]
+type = null
+trigger1 = 1
+[state 464]
+type = null
+trigger1 = 1
+[state 465]
+type = null
+trigger1 = 1
+[state 466]
+type = null
+trigger1 = 1
+[state 467]
+type = null
+trigger1 = 1
+[state 468]
+type = null
+trigger1 = 1
+[state 469]
+type = null
+trigger1 = 1
+[state 470]
+type = null
+trigger1 = 1
+[state 471]
+type = null
+trigger1 = 1
+[state 472]
+type = null
+trigger1 = 1
+[state 473]
+type = null
+trigger1 = 1
+[state 474]
+type = null
+trigger1 = 1
+[state 475]
+type = null
+trigger1 = 1
+[state 476]
+type = null
+trigger1 = 1
+[state 477]
+type = null
+trigger1 = 1
+[state 478]
+type = null
+trigger1 = 1
+[state 479]
+type = null
+trigger1 = 1
+[state 480]
+type = null
+trigger1 = 1
+[state 481]
+type = null
+trigger1 = 1
+[state 482]
+type = null
+trigger1 = 1
+[state 483]
+type = null
+trigger1 = 1
+[state 484]
+type = null
+trigger1 = 1
+[state 485]
+type = null
+trigger1 = 1
+[state 486]
+type = null
+trigger1 = 1
+[state 487]
+type = null
+trigger1 = 1
+[state 488]
+type = null
+trigger1 = 1
+[state 489]
+type = null
+trigger1 = 1
+[state 490]
+type = null
+trigger1 = 1
+[state 491]
+type = null
+trigger1 = 1
+[state 492]
+type = null
+trigger1 = 1
+[state 493]
+type = null
+trigger1 = 1
+[state 494]
+type = null
+trigger1 = 1
+[state 495]
+type = null
+trigger1 = 1
+[state 496]
+type = null
+trigger1 = 1
+[state 497]
+type = null
+trigger1 = 1
+[state 498]
+type = null
+trigger1 = 1
+[state 499]
+type = null
+trigger1 = 1
+[state 500]
+type = null
+trigger1 = 1
+[state 501]
+type = null
+trigger1 = 1
+[state 502]
+type = null
+trigger1 = 1
+[state 503]
+type = null
+trigger1 = 1
+[state 504]
+type = null
+trigger1 = 1
+[state 505]
+type = null
+trigger1 = 1
+[state 506]
+type = null
+trigger1 = 1
+[state 507]
+type = null
+trigger1 = 1
+[state 508]
+type = null
+trigger1 = 1
+[state 509]
+type = null
+trigger1 = 1
+[state 510]
+type = null
+trigger1 = 1
+[state 511]
+type = null
+trigger1 = 1
+[state 512]
+type = null
+trigger1 = 1
+[state 513]
+type = null
+trigger1 = 1
+[state 514]
+type = null
+trigger1 = 1
+[state 515]
+type = null
+trigger1 = 1
+[state 516]
+type = null
+trigger1 = 1
+[state 517]
+type = null
+trigger1 = 1
+[state 518]
+type = null
+trigger1 = 1
+[state 519]
+type = null
+trigger1 = 1
+[state 520]
+type = null
+trigger1 = 1
+[state 521]
+type = null
+trigger1 = 1
+[state 522]
+type = null
+trigger1 = 1
+[state 523]
+type = null
+trigger1 = 1
+[state 524]
+type = null
+trigger1 = 1
+[state 525]
+type = null
+trigger1 = 1
+[state 526]
+type = null
+trigger1 = 1
+[state 527]
+type = null
+trigger1 = 1
+[state 528]
+type = null
+trigger1 = 1
+[state 529]
+type = null
+trigger1 = 1
+[state 530]
+type = null
+trigger1 = 1
+[state 531]
+type = null
+trigger1 = 1
+[state 532]
+type = null
+trigger1 = 1
+[state 533]
+type = null
+trigger1 = 1
+[state 534]
+type = null
+trigger1 = 1
+[state 535]
+type = null
+trigger1 = 1
+[state 536]
+type = null
+trigger1 = 1
+[state 537]
+type = null
+trigger1 = 1
+[state 538]
+type = null
+trigger1 = 1
+[state 539]
+type = null
+trigger1 = 1
+[state 540]
+type = null
+trigger1 = 1
+[state 541]
+type = null
+trigger1 = 1
+[state 542]
+type = null
+trigger1 = 1
+[state 543]
+type = null
+trigger1 = 1
+[state 544]
+type = null
+trigger1 = 1
+[state 545]
+type = null
+trigger1 = 1
+[state 546]
+type = null
+trigger1 = 1
+[state 547]
+type = null
+trigger1 = 1
+[state 548]
+type = null
+trigger1 = 1
+[state 549]
+type = null
+trigger1 = 1
+[state 550]
+type = null
+trigger1 = 1
+[state 551]
+type = null
+trigger1 = 1
+[state 552]
+type = null
+trigger1 = 1
+[state 553];alive-1
+type = null
+trigger1 = 1
+persistent = 2
+ignorehitpause = 1
+[state 554];alive-2
+type = null
+trigger1 = 1
+ignorehitpause = 1
+[state 555];alive-3
+type = null
+trigger1 = 1
+ignorehitpause = 1
+[state 556];alive-4
+type = null
+trigger1 = 1
+ignorehitpause = 1
+[state 557]
+type = selfstate
+trigger1 = 1
+value = 1000002 ; 凍結解除
+persistent = 256
+ignorehitpause = 1
+[state 558]
+type = selfstate
+trigger1 = 1
+value = 1000002 ; 凍結解除
+persistent = 256
+ignorehitpause = 1
+[state 559]
+type = selfstate
+trigger1 = 1
+value = 1000002 ; 凍結解除
+persistent = 256
+ignorehitpause = 1
+[state 560]
+type = selfstate
+trigger1 = 1
+value = 1000002 ; 凍結解除
+persistent = 256
+ignorehitpause = 1
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+;冻结解除
+;凍結解除&下一幀凍結賦予
+;將自己的hitpausetime刷為0以解除凍結狀態，以免在刷完值後影響正常動作
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[statedef 1000002]
+type = U
+movetype = U
+physics = U
+
+[state 1]
+type = null
+trigger1 = 1
+[state 2]
+type = null
+trigger1 = 1
+[state 3]
+type = null
+trigger1 = 1
+[state 4]
+type = null
+trigger1 = 1
+[state 5]
+type = null
+trigger1 = 1
+[state 6]
+type = null
+trigger1 = 1
+[state 7]
+type = null
+trigger1 = 1
+[state 8]
+type = null
+trigger1 = 1
+[state 9]
+type = null
+trigger1 = 1
+[state 10]
+type = null
+trigger1 = 1
+[state 11]
+type = null
+trigger1 = 1
+[state 12]
+type = null
+trigger1 = 1
+[state 13]
+type = null
+trigger1 = 1
+[state 14]
+type = null
+trigger1 = 1
+[state 15]
+type = null
+trigger1 = 1
+[state 16]
+type = null
+trigger1 = 1
+[state 17]
+type = null
+trigger1 = 1
+[state 18]
+type = null
+trigger1 = 1
+[state 19]
+type = null
+trigger1 = 1
+[state 20]
+type = null
+trigger1 = 1
+[state 21]
+type = null
+trigger1 = 1
+[state 22]
+type = null
+trigger1 = 1
+[state 23]
+type = null
+trigger1 = 1
+[state 24]
+type = null
+trigger1 = 1
+[state 25]
+type = null
+trigger1 = 1
+[state 26]
+type = null
+trigger1 = 1
+[state 27]
+type = null
+trigger1 = 1
+[state 28]
+type = null
+trigger1 = 1
+[state 29]
+type = null
+trigger1 = 1
+[state 30]
+type = null
+trigger1 = 1
+[state 31]
+type = null
+trigger1 = 1
+[state 32]
+type = null
+trigger1 = 1
+[state 33]
+type = null
+trigger1 = 1
+[state 34]
+type = null
+trigger1 = 1
+[state 35]
+type = null
+trigger1 = 1
+[state 36]
+type = null
+trigger1 = 1
+[state 37]
+type = null
+trigger1 = 1
+[state 38]
+type = null
+trigger1 = 1
+[state 39]
+type = null
+trigger1 = 1
+[state 40]
+type = null
+trigger1 = 1
+[state 41]
+type = null
+trigger1 = 1
+[state 42]
+type = null
+trigger1 = 1
+[state 43]
+type = null
+trigger1 = 1
+[state 44]
+type = null
+trigger1 = 1
+[state 45]
+type = null
+trigger1 = 1
+[state 46]
+type = null
+trigger1 = 1
+[state 47]
+type = null
+trigger1 = 1
+[state 48]
+type = null
+trigger1 = 1
+[state 49]
+type = null
+trigger1 = 1
+[state 50]
+type = null
+trigger1 = 1
+[state 51]
+type = null
+trigger1 = 1
+[state 52]
+type = null
+trigger1 = 1
+[state 53]
+type = null
+trigger1 = 1
+[state 54]
+type = null
+trigger1 = 1
+[state 55]
+type = null
+trigger1 = 1
+[state 56]
+type = null
+trigger1 = 1
+[state 57]
+type = null
+trigger1 = 1
+[state 58]
+type = null
+trigger1 = 1
+[state 59]
+type = null
+trigger1 = 1
+[state 60]
+type = null
+trigger1 = 1
+[state 61]
+type = null
+trigger1 = 1
+[state 62]
+type = null
+trigger1 = 1
+[state 63]
+type = null
+trigger1 = 1
+[state 64]
+type = null
+trigger1 = 1
+[state 65]
+type = null
+trigger1 = 1
+[state 66]
+type = null
+trigger1 = 1
+[state 67]
+type = null
+trigger1 = 1
+[state 68]
+type = null
+trigger1 = 1
+[state 69]
+type = null
+trigger1 = 1
+[state 70]
+type = null
+trigger1 = 1
+[state 71]
+type = null
+trigger1 = 1
+[state 72]
+type = null
+trigger1 = 1
+[state 73]
+type = null
+trigger1 = 1
+[state 74]
+type = null
+trigger1 = 1
+[state 75]
+type = null
+trigger1 = 1
+[state 76]
+type = null
+trigger1 = 1
+[state 77]
+type = null
+trigger1 = 1
+[state 78]
+type = null
+trigger1 = 1
+[state 79]
+type = null
+trigger1 = 1
+[state 80]
+type = null
+trigger1 = 1
+[state 81]
+type = null
+trigger1 = 1
+[state 82]
+type = null
+trigger1 = 1
+[state 83]
+type = null
+trigger1 = 1
+[state 84]
+type = null
+trigger1 = 1
+[state 85]
+type = null
+trigger1 = 1
+[state 86]
+type = null
+trigger1 = 1
+[state 87]
+type = null
+trigger1 = 1
+[state 88]
+type = null
+trigger1 = 1
+[state 89]
+type = null
+trigger1 = 1
+[state 90]
+type = null
+trigger1 = 1
+[state 91]
+type = null
+trigger1 = 1
+[state 92]
+type = null
+trigger1 = 1
+[state 93]
+type = null
+trigger1 = 1
+[state 94]
+type = null
+trigger1 = 1
+[state 95]
+type = null
+trigger1 = 1
+[state 96]
+type = null
+trigger1 = 1
+[state 97]
+type = null
+trigger1 = 1
+[state 98]
+type = null
+trigger1 = 1
+[state 99]
+type = null
+trigger1 = 1
+[state 100]
+type = null
+trigger1 = 1
+[state 101]
+type = null
+trigger1 = 1
+[state 102]
+type = null
+trigger1 = 1
+[state 103]
+type = null
+trigger1 = 1
+[state 104]
+type = null
+trigger1 = 1
+[state 105]
+type = null
+trigger1 = 1
+[state 106]
+type = null
+trigger1 = 1
+[state 107]
+type = null
+trigger1 = 1
+[state 108]
+type = null
+trigger1 = 1
+[state 109]
+type = null
+trigger1 = 1
+[state 110]
+type = null
+trigger1 = 1
+[state 111]
+type = null
+trigger1 = 1
+[state 112]
+type = null
+trigger1 = 1
+[state 113]
+type = null
+trigger1 = 1
+[state 114]
+type = null
+trigger1 = 1
+[state 115]
+type = null
+trigger1 = 1
+[state 116]
+type = null
+trigger1 = 1
+[state 117]
+type = null
+trigger1 = 1
+[state 118]
+type = null
+trigger1 = 1
+[state 119]
+type = null
+trigger1 = 1
+[state 120]
+type = null
+trigger1 = 1
+[state 121]
+type = null
+trigger1 = 1
+[state 122]
+type = null
+trigger1 = 1
+[state 123]
+type = null
+trigger1 = 1
+[state 124]
+type = null
+trigger1 = 1
+[state 125]
+type = null
+trigger1 = 1
+[state 126]
+type = null
+trigger1 = 1
+[state 127]
+type = null
+trigger1 = 1
+[state 128]
+type = null
+trigger1 = 1
+[state 129]
+type = null
+trigger1 = 1
+[state 130]
+type = null
+trigger1 = 1
+[state 131]
+type = null
+trigger1 = 1
+[state 132]
+type = null
+trigger1 = 1
+[state 133]
+type = null
+trigger1 = 1
+[state 134]
+type = null
+trigger1 = 1
+[state 135]
+type = null
+trigger1 = 1
+[state 136]
+type = null
+trigger1 = 1
+[state 137]
+type = null
+trigger1 = 1
+[state 138]
+type = null
+trigger1 = 1
+[state 139]
+type = null
+trigger1 = 1
+[state 140]
+type = null
+trigger1 = 1
+[state 141]
+type = null
+trigger1 = 1
+[state 142]
+type = null
+trigger1 = 1
+[state 143]
+type = null
+trigger1 = 1
+[state 144]
+type = null
+trigger1 = 1
+[state 145]
+type = null
+trigger1 = 1
+[state 146]
+type = null
+trigger1 = 1
+[state 147]
+type = null
+trigger1 = 1
+[state 148]
+type = null
+trigger1 = 1
+[state 149]
+type = null
+trigger1 = 1
+[state 150]
+type = null
+trigger1 = 1
+[state 151]
+type = null
+trigger1 = 1
+[state 152]
+type = null
+trigger1 = 1
+[state 153]
+type = null
+trigger1 = 1
+[state 154]
+type = null
+trigger1 = 1
+[state 155]
+type = null
+trigger1 = 1
+[state 156]
+type = null
+trigger1 = 1
+[state 157]
+type = null
+trigger1 = 1
+[state 158]
+type = null
+trigger1 = 1
+[state 159]
+type = null
+trigger1 = 1
+[state 160]
+type = null
+trigger1 = 1
+[state 161]
+type = null
+trigger1 = 1
+[state 162]
+type = null
+trigger1 = 1
+[state 163]
+type = null
+trigger1 = 1
+[state 164]
+type = null
+trigger1 = 1
+[state 165]
+type = null
+trigger1 = 1
+[state 166]
+type = null
+trigger1 = 1
+[state 167]
+type = null
+trigger1 = 1
+[state 168]
+type = null
+trigger1 = 1
+[state 169]
+type = null
+trigger1 = 1
+[state 170]
+type = null
+trigger1 = 1
+[state 171]
+type = null
+trigger1 = 1
+[state 172]
+type = null
+trigger1 = 1
+[state 173]
+type = null
+trigger1 = 1
+[state 174]
+type = null
+trigger1 = 1
+[state 175]
+type = null
+trigger1 = 1
+[state 176]
+type = null
+trigger1 = 1
+[state 177]
+type = null
+trigger1 = 1
+[state 178]
+type = null
+trigger1 = 1
+[state 179]
+type = null
+trigger1 = 1
+[state 180]
+type = null
+trigger1 = 1
+[state 181]
+type = null
+trigger1 = 1
+[state 182]
+type = null
+trigger1 = 1
+[state 183]
+type = null
+trigger1 = 1
+[state 184]
+type = null
+trigger1 = 1
+[state 185]
+type = null
+trigger1 = 1
+[state 186]
+type = null
+trigger1 = 1
+[state 187]
+type = null
+trigger1 = 1
+[state 188]
+type = null
+trigger1 = 1
+[state 189]
+type = null
+trigger1 = 1
+[state 190]
+type = null
+trigger1 = 1
+[state 191]
+type = null
+trigger1 = 1
+[state 192]
+type = null
+trigger1 = 1
+[state 193]
+type = null
+trigger1 = 1
+[state 194]
+type = null
+trigger1 = 1
+[state 195]
+type = null
+trigger1 = 1
+[state 196]
+type = null
+trigger1 = 1
+[state 197]
+type = null
+trigger1 = 1
+[state 198]
+type = null
+trigger1 = 1
+[state 199]
+type = null
+trigger1 = 1
+[state 200]
+type = null
+trigger1 = 1
+[state 201]
+type = null
+trigger1 = 1
+[state 202]
+type = null
+trigger1 = 1
+[state 203]
+type = null
+trigger1 = 1
+[state 204]
+type = null
+trigger1 = 1
+[state 205]
+type = null
+trigger1 = 1
+[state 206]
+type = null
+trigger1 = 1
+[state 207]
+type = null
+trigger1 = 1
+[state 208]
+type = null
+trigger1 = 1
+[state 209]
+type = null
+trigger1 = 1
+[state 210]
+type = null
+trigger1 = 1
+[state 211]
+type = null
+trigger1 = 1
+[state 212]
+type = null
+trigger1 = 1
+[state 213]
+type = null
+trigger1 = 1
+[state 214]
+type = null
+trigger1 = 1
+[state 215]
+type = null
+trigger1 = 1
+[state 216]
+type = null
+trigger1 = 1
+[state 217]
+type = null
+trigger1 = 1
+[state 218]
+type = null
+trigger1 = 1
+[state 219]
+type = null
+trigger1 = 1
+[state 220]
+type = null
+trigger1 = 1
+[state 221]
+type = null
+trigger1 = 1
+[state 222]
+type = null
+trigger1 = 1
+[state 223]
+type = null
+trigger1 = 1
+[state 224]
+type = null
+trigger1 = 1
+[state 225]
+type = null
+trigger1 = 1
+[state 226]
+type = null
+trigger1 = 1
+[state 227]
+type = null
+trigger1 = 1
+[state 228]
+type = null
+trigger1 = 1
+[state 229]
+type = null
+trigger1 = 1
+[state 230]
+type = null
+trigger1 = 1
+[state 231]
+type = null
+trigger1 = 1
+[state 232]
+type = null
+trigger1 = 1
+[state 233]
+type = null
+trigger1 = 1
+[state 234]
+type = null
+trigger1 = 1
+[state 235]
+type = null
+trigger1 = 1
+[state 236]
+type = null
+trigger1 = 1
+[state 237]
+type = null
+trigger1 = 1
+[state 238]
+type = null
+trigger1 = 1
+[state 239]
+type = null
+trigger1 = 1
+[state 240]
+type = null
+trigger1 = 1
+[state 241]
+type = null
+trigger1 = 1
+[state 242]
+type = null
+trigger1 = 1
+[state 243]
+type = null
+trigger1 = 1
+[state 244]
+type = null
+trigger1 = 1
+[state 245]
+type = null
+trigger1 = 1
+[state 246]
+type = null
+trigger1 = 1
+[state 247]
+type = null
+trigger1 = 1
+[state 248]
+type = null
+trigger1 = 1
+[state 249]
+type = null
+trigger1 = 1
+[state 250]
+type = null
+trigger1 = 1
+[state 251]
+type = null
+trigger1 = 1
+[state 252]
+type = null
+trigger1 = 1
+[state 253]
+type = null
+trigger1 = 1
+[state 254]
+type = null
+trigger1 = 1
+[state 255]
+type = null
+trigger1 = 1
+[state 256]
+type = null
+trigger1 = 1
+[state 257]
+type = null
+trigger1 = 1
+[state 258]
+type = null
+trigger1 = 1
+[state 259]
+type = null
+trigger1 = 1
+[state 260]
+type = null
+trigger1 = 1
+[state 261]
+type = null
+trigger1 = 1
+[state 262]
+type = null
+trigger1 = 1
+[state 263]
+type = null
+trigger1 = 1
+[state 264]
+type = null
+trigger1 = 1
+[state 265]
+type = null
+trigger1 = 1
+[state 266]
+type = null
+trigger1 = 1
+[state 267]
+type = null
+trigger1 = 1
+[state 268]
+type = null
+trigger1 = 1
+[state 269]
+type = null
+trigger1 = 1
+[state 270]
+type = null
+trigger1 = 1
+[state 271]
+type = null
+trigger1 = 1
+[state 272]
+type = null
+trigger1 = 1
+[state 273]
+type = null
+trigger1 = 1
+[state 274]
+type = null
+trigger1 = 1
+[state 275]
+type = null
+trigger1 = 1
+[state 276]
+type = null
+trigger1 = 1
+[state 277]
+type = null
+trigger1 = 1
+[state 278]
+type = null
+trigger1 = 1
+[state 279]
+type = null
+trigger1 = 1
+[state 280]
+type = null
+trigger1 = 1
+[state 281]
+type = null
+trigger1 = 1
+[state 282]
+type = null
+trigger1 = 1
+[state 283]
+type = null
+trigger1 = 1
+[state 284]
+type = null
+trigger1 = 1
+[state 285]
+type = null
+trigger1 = 1
+[state 286]
+type = null
+trigger1 = 1
+[state 287]
+type = null
+trigger1 = 1
+[state 288]
+type = null
+trigger1 = 1
+[state 289]
+type = null
+trigger1 = 1
+[state 290]
+type = null
+trigger1 = 1
+[state 291]
+type = null
+trigger1 = 1
+[state 292]
+type = null
+trigger1 = 1
+[state 293]
+type = null
+trigger1 = 1
+[state 294]
+type = null
+trigger1 = 1
+[state 295]
+type = null
+trigger1 = 1
+[state 296]
+type = null
+trigger1 = 1
+[state 297]
+type = null
+trigger1 = 1
+[state 298]
+type = null
+trigger1 = 1
+[state 299]
+type = null
+trigger1 = 1
+[state 300]
+type = null
+trigger1 = 1
+[state 301]
+type = null
+trigger1 = 1
+[state 302]
+type = null
+trigger1 = 1
+[state 303]
+type = null
+trigger1 = 1
+[state 304]
+type = null
+trigger1 = 1
+[state 305]
+type = null
+trigger1 = 1
+[state 306]
+type = null
+trigger1 = 1
+[state 307]
+type = null
+trigger1 = 1
+[state 308]
+type = null
+trigger1 = 1
+[state 309]
+type = null
+trigger1 = 1
+[state 310]
+type = null
+trigger1 = 1
+[state 311]
+type = null
+trigger1 = 1
+[state 312]
+type = null
+trigger1 = 1
+[state 313]
+type = null
+trigger1 = 1
+[state 314]
+type = null
+trigger1 = 1
+[state 315]
+type = null
+trigger1 = 1
+[state 316]
+type = null
+trigger1 = 1
+[state 317]
+type = null
+trigger1 = 1
+[state 318]
+type = null
+trigger1 = 1
+[state 319]
+type = null
+trigger1 = 1
+[state 320]
+type = null
+trigger1 = 1
+[state 321]
+type = null
+trigger1 = 1
+[state 322]
+type = null
+trigger1 = 1
+[state 323]
+type = null
+trigger1 = 1
+[state 324]
+type = null
+trigger1 = 1
+[state 325]
+type = null
+trigger1 = 1
+[state 326]
+type = null
+trigger1 = 1
+[state 327]
+type = null
+trigger1 = 1
+[state 328]
+type = null
+trigger1 = 1
+[state 329]
+type = null
+trigger1 = 1
+[state 330]
+type = null
+trigger1 = 1
+[state 331]
+type = null
+trigger1 = 1
+[state 332]
+type = null
+trigger1 = 1
+[state 333]
+type = null
+trigger1 = 1
+[state 334]
+type = null
+trigger1 = 1
+[state 335]
+type = null
+trigger1 = 1
+[state 336]
+type = null
+trigger1 = 1
+[state 337]
+type = null
+trigger1 = 1
+[state 338]
+type = null
+trigger1 = 1
+[state 339]
+type = null
+trigger1 = 1
+[state 340]
+type = null
+trigger1 = 1
+[state 341]
+type = null
+trigger1 = 1
+[state 342]
+type = null
+trigger1 = 1
+[state 343]
+type = null
+trigger1 = 1
+[state 344]
+type = null
+trigger1 = 1
+[state 345]
+type = null
+trigger1 = 1
+[state 346]
+type = null
+trigger1 = 1
+[state 347]
+type = null
+trigger1 = 1
+[state 348]
+type = null
+trigger1 = 1
+[state 349]
+type = null
+trigger1 = 1
+[state 350]
+type = null
+trigger1 = 1
+[state 351]
+type = null
+trigger1 = 1
+[state 352]
+type = null
+trigger1 = 1
+[state 353]
+type = null
+trigger1 = 1
+[state 354]
+type = null
+trigger1 = 1
+[state 355]
+type = null
+trigger1 = 1
+[state 356]
+type = null
+trigger1 = 1
+[state 357]
+type = null
+trigger1 = 1
+[state 358]
+type = null
+trigger1 = 1
+[state 359]
+type = null
+trigger1 = 1
+[state 360]
+type = null
+trigger1 = 1
+[state 361]
+type = null
+trigger1 = 1
+[state 362]
+type = null
+trigger1 = 1
+[state 363]
+type = null
+trigger1 = 1
+[state 364]
+type = null
+trigger1 = 1
+[state 365]
+type = null
+trigger1 = 1
+[state 366]
+type = null
+trigger1 = 1
+[state 367]
+type = null
+trigger1 = 1
+[state 368]
+type = null
+trigger1 = 1
+[state 369]
+type = null
+trigger1 = 1
+[state 370]
+type = null
+trigger1 = 1
+[state 371]
+type = null
+trigger1 = 1
+[state 372]
+type = null
+trigger1 = 1
+[state 373]
+type = null
+trigger1 = 1
+[state 374]
+type = null
+trigger1 = 1
+[state 375]
+type = null
+trigger1 = 1
+[state 376]
+type = null
+trigger1 = 1
+[state 377]
+type = null
+trigger1 = 1
+[state 378]
+type = null
+trigger1 = 1
+[state 379]
+type = null
+trigger1 = 1
+[state 380]
+type = null
+trigger1 = 1
+[state 381]
+type = null
+trigger1 = 1
+[state 382]
+type = null
+trigger1 = 1
+[state 383]
+type = null
+trigger1 = 1
+[state 384]
+type = null
+trigger1 = 1
+[state 385]
+type = null
+trigger1 = 1
+[state 386]
+type = null
+trigger1 = 1
+[state 387]
+type = null
+trigger1 = 1
+[state 388]
+type = null
+trigger1 = 1
+[state 389]
+type = null
+trigger1 = 1
+[state 390]
+type = null
+trigger1 = 1
+[state 391]
+type = null
+trigger1 = 1
+[state 392]
+type = null
+trigger1 = 1
+[state 393]
+type = null
+trigger1 = 1
+[state 394]
+type = null
+trigger1 = 1
+[state 395]
+type = null
+trigger1 = 1
+[state 396]
+type = null
+trigger1 = 1
+[state 397]
+type = null
+trigger1 = 1
+[state 398]
+type = null
+trigger1 = 1
+[state 399]
+type = null
+trigger1 = 1
+[state 400]
+type = null
+trigger1 = 1
+[state 401]
+type = null
+trigger1 = 1
+[state 402]
+type = null
+trigger1 = 1
+[state 403]
+type = null
+trigger1 = 1
+[state 404]
+type = null
+trigger1 = 1
+[state 405]
+type = null
+trigger1 = 1
+[state 406]
+type = null
+trigger1 = 1
+[state 407]
+type = null
+trigger1 = 1
+[state 408]
+type = null
+trigger1 = 1
+[state 409]
+type = null
+trigger1 = 1
+[state 410]
+type = null
+trigger1 = 1
+[state 411]
+type = null
+trigger1 = 1
+[state 412]
+type = null
+trigger1 = 1
+[state 413]
+type = null
+trigger1 = 1
+[state 414]
+type = null
+trigger1 = 1
+[state 415]
+type = null
+trigger1 = 1
+[state 416]
+type = null
+trigger1 = 1
+[state 417]
+type = null
+trigger1 = 1
+[state 418]
+type = null
+trigger1 = 1
+[state 419]
+type = null
+trigger1 = 1
+[state 420]
+type = null
+trigger1 = 1
+[state 421]
+type = null
+trigger1 = 1
+[state 422]
+type = null
+trigger1 = 1
+[state 423]
+type = null
+trigger1 = 1
+[state 424]
+type = null
+trigger1 = 1
+[state 425]
+type = null
+trigger1 = 1
+[state 426]
+type = null
+trigger1 = 1
+[state 427]
+type = null
+trigger1 = 1
+[state 428]
+type = null
+trigger1 = 1
+[state 429]
+type = null
+trigger1 = 1
+[state 430]
+type = null
+trigger1 = 1
+[state 431]
+type = null
+trigger1 = 1
+[state 432]
+type = null
+trigger1 = 1
+[state 433]
+type = null
+trigger1 = 1
+[state 434]
+type = null
+trigger1 = 1
+[state 435]
+type = null
+trigger1 = 1
+[state 436]
+type = null
+trigger1 = 1
+[state 437]
+type = null
+trigger1 = 1
+[state 438]
+type = null
+trigger1 = 1
+[state 439]
+type = null
+trigger1 = 1
+[state 440]
+type = null
+trigger1 = 1
+[state 441]
+type = null
+trigger1 = 1
+[state 442]
+type = null
+trigger1 = 1
+[state 443]
+type = null
+trigger1 = 1
+[state 444]
+type = null
+trigger1 = 1
+[state 445]
+type = null
+trigger1 = 1
+[state 446]
+type = null
+trigger1 = 1
+[state 447]
+type = null
+trigger1 = 1
+[state 448]
+type = null
+trigger1 = 1
+[state 449]
+type = null
+trigger1 = 1
+[state 450]
+type = null
+trigger1 = 1
+[state 451]
+type = null
+trigger1 = 1
+[state 452]
+type = null
+trigger1 = 1
+[state 453]
+type = null
+trigger1 = 1
+[state 454]
+type = null
+trigger1 = 1
+[state 455]
+type = null
+trigger1 = 1
+[state 456]
+type = null
+trigger1 = 1
+[state 457]
+type = null
+trigger1 = 1
+[state 458]
+type = null
+trigger1 = 1
+[state 459]
+type = null
+trigger1 = 1
+[state 460]
+type = null
+trigger1 = 1
+[state 461]
+type = null
+trigger1 = 1
+[state 462]
+type = null
+trigger1 = 1
+[state 463]
+type = null
+trigger1 = 1
+[state 464]
+type = null
+trigger1 = 1
+[state 465]
+type = null
+trigger1 = 1
+[state 466]
+type = null
+trigger1 = 1
+[state 467]
+type = null
+trigger1 = 1
+[state 468]
+type = null
+trigger1 = 1
+[state 469]
+type = null
+trigger1 = 1
+[state 470]
+type = null
+trigger1 = 1
+[state 471]
+type = null
+trigger1 = 1
+[state 472]
+type = null
+trigger1 = 1
+[state 473]
+type = null
+trigger1 = 1
+[state 474]
+type = null
+trigger1 = 1
+[state 475]
+type = null
+trigger1 = 1
+[state 476]
+type = null
+trigger1 = 1
+[state 477]
+type = null
+trigger1 = 1
+[state 478]
+type = null
+trigger1 = 1
+[state 479]
+type = null
+trigger1 = 1
+[state 480]
+type = null
+trigger1 = 1
+[state 481]
+type = null
+trigger1 = 1
+[state 482]
+type = null
+trigger1 = 1
+[state 483]
+type = null
+trigger1 = 1
+[state 484]
+type = null
+trigger1 = 1
+[state 485]
+type = null
+trigger1 = 1
+[state 486]
+type = null
+trigger1 = 1
+[state 487]
+type = null
+trigger1 = 1
+[state 488]
+type = null
+trigger1 = 1
+[state 489]
+type = null
+trigger1 = 1
+[state 490]
+type = null
+trigger1 = 1
+[state 491]
+type = null
+trigger1 = 1
+[state 492]
+type = null
+trigger1 = 1
+[state 493]
+type = null
+trigger1 = 1
+[state 494]
+type = null
+trigger1 = 1
+[state 495]
+type = null
+trigger1 = 1
+[state 496]
+type = null
+trigger1 = 1
+[state 497]
+type = null
+trigger1 = 1
+[state 498]
+type = null
+trigger1 = 1
+[state 499]
+type = null
+trigger1 = 1
+[state 500]
+type = null
+trigger1 = 1
+[state 501]
+type = null
+trigger1 = 1
+[state 502]
+type = null
+trigger1 = 1
+[state 503]
+type = null
+trigger1 = 1
+[state 504]
+type = null
+trigger1 = 1
+[state 505]
+type = null
+trigger1 = 1
+[state 506]
+type = null
+trigger1 = 1
+[state 507]
+type = null
+trigger1 = 1
+[state 508]
+type = null
+trigger1 = 1
+[state 509]
+type = null
+trigger1 = 1
+[state 510]
+type = null
+trigger1 = 1
+[state 511]
+type = null
+trigger1 = 1
+[state 512]
+type = null
+trigger1 = 1
+[state 513]
+type = null
+trigger1 = 1
+[state 514]
+type = null
+trigger1 = 1
+[state 515]
+type = null
+trigger1 = 1
+[state 516]
+type = null
+trigger1 = 1
+[state 517]
+type = null
+trigger1 = 1
+[state 518]
+type = null
+trigger1 = 1
+[state 519]
+type = null
+trigger1 = 1
+[state 520]
+type = null
+trigger1 = 1
+[state 521]
+type = null
+trigger1 = 1
+[state 522]
+type = null
+trigger1 = 1
+[state 523]
+type = null
+trigger1 = 1
+[state 524]
+type = null
+trigger1 = 1
+[state 525]
+type = null
+trigger1 = 1
+[state 526]
+type = null
+trigger1 = 1
+[state 527]
+type = null
+trigger1 = 1
+[state 528]
+type = null
+trigger1 = 1
+[state 529]
+type = null
+trigger1 = 1
+[state 530]
+type = null
+trigger1 = 1
+[state 531]
+type = null
+trigger1 = 1
+[state 532]
+type = null
+trigger1 = 1
+[state 533]
+type = null
+trigger1 = 1
+persistent = 128
+ignorehitpause = 1
+[state 534]
+type = null
+trigger1 = 1
+ignorehitpause = 1
+[state 535]
+type = null
+trigger1 = 1
+ignorehitpause = 1
+[state 536]
+type = null
+trigger1 = 1
+ignorehitpause = 1
+[state 537]
+type = null
+trigger1 = 1
+[state 538]
+type = null
+trigger1 = 1
+[state 539]
+type = null
+trigger1 = 1
+[state 540]
+type = null
+trigger1 = 1
+[state 541];hitpausetime-1
+type = null
+trigger1 = 1
+ignorehitpause = 1
+[state 542];hitpausetime-2
+type = null
+trigger1 = 1
+ignorehitpause = 1
+[state 543];hitpausetime-3
+type = null
+trigger1 = 1
+ignorehitpause = 1
+[state 544];hitpausetime-4
+type = changestate
+trigger1 = hitpausetime
+value = stateno
+persistent = 256
+ignorehitpause = 1
+[state 545];hitpausetime-下一幀1
+type = null
+trigger1 = 1
+persistent = 3
+ignorehitpause = 1
+[state 546];hitpausetime-下一幀2
+type = null
+trigger1 = 1
+ignorehitpause = 1
+[state 547];hitpausetime-下一幀3
+type = null
+trigger1 = 1
+ignorehitpause = 1
+[state 548];hitpausetime-下一幀4
+type = null
+trigger1 = 1
+ignorehitpause = 1
