@@ -1,0 +1,42 @@
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[Info]
+name = "Nether"			;萘塞尔
+displayname = "Nether"		;萘塞尔
+versiondate = 03,15,2007
+mugenversion = 1.0;1.1;win
+author = "辣椒油233(M)"		;作者 辣椒油233(M)
+pal.defaults = 1
+;localcoord = 427,320		;如果使宽屏主程序，请将前面的冒号删除。
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[Files]
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+sprite 		= Death\Nether.sff	
+anim 		= Death\Nether.air
+sound 		= Death\Nether.snd
+cmd		= State\Nether-CMD-RC.txt
+cns 		= State\Nether.cns
+st 		= State\Nether-2-RC.cns
+st1 		= State\Nether-P2stateno.cns
+st2 		= State\Nether-Helper.cns
+st3 		= Option.txt
+st4		= State\Nether-common.cns
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+;色表
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+pal1 		= Death\Nether.act
+pal2 		= Death\Nether.act
+pal3 		= Death\Nether.act
+pal4 		= Death\Nether.act
+pal5 		= Death\Nether.act
+pal6 		= Death\Nether.act
+pal7 		= Death\Nether.act
+pal8 		= Death\Nether.act
+pal9 		= Death\Nether.act
+pal10 		= Death\Nether.act
+pal11 		= Death\Nether.act
+pal12 		= Death\Nether.act
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[Arcade]
+intro.storyboard = 	
+ending.storyboard =	
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

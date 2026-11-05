@@ -1,0 +1,74 @@
+;©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥
+;»ù´¡×´Ì¬-----------------------------------------------------------------------
+;©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥
+[Statedef 120]
+type = U
+movetype = U
+physics = N
+movehitpersist = 1
+hitdefpersist = 1
+hitcountpersist = 1
+
+[State Death];
+Type = AssertSpecial
+Trigger1 = !ishelper 
+Trigger1 = palno != 6
+Trigger1 = RoundState != 2
+Flag = NoKo
+Ignorehitpause = 1
+
+[State Death];
+Type = AssertSpecial
+Trigger1 = palno = 6
+Flag = NoKo
+Ignorehitpause = 1
+
+[State Death]
+type = statetypeset
+trigger1 = !ishelper && RoundState = 2
+statetype = S
+movetype = A
+physics = N
+ignorehitpause = 1
+
+[State Death]
+Type = StateTypeSet
+Trigger1 = !IsHelper && RoundState != 2
+StateType = S
+MoveType = I
+Physics = N
+IgNoreHitPause = 1
+
+[State Death];
+type = hitoverride
+trigger1 = !ishelper
+time = -1
+attr = SCA,AT,AA,AP
+slot = 1
+ignorehitpause = 1 
+
+[State Death]
+Type = AssertSpecial
+Trigger1 = !IsHelper
+Flag = UnGuardAble
+Flag2 = NoJuggleCheck
+IgNoreHitPause = 1
+
+[State Death];
+type = hitby
+trigger1 = !ishelper
+value =
+value2 =
+ignorehitpause = 1
+
+[State Death]
+type = NotHitBy
+trigger1 = !ishelper
+value = SCA
+ignorehitpause = 1
+
+[State Death];
+type = ctrlset
+trigger1 = !ishelper
+value = 1
+ignorehitpause = 1
